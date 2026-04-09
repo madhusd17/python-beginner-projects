@@ -10,7 +10,7 @@ else:
     print("invalid choice")
 sys_choice=random.randint(1,50)
 print(sys_choice)
-#user_choice=input("make a guess:")
+
 for i in range(attempts,0,-1):
     print(f"you have {i} attempts remaining to guess the number!")
     user_choice=int(input("make a guess:"))
